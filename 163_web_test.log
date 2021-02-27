@@ -1,0 +1,306 @@
+Tue, 21 Jul 2020 15:06:09 test_contact.py[line:65] INFO æµ‹è¯•ç”¨ä¾‹:('å¼ ä¸‰', '85858685@163.com', True, 13285698745, 'è”ç³»äºº1'), æœŸæœ›: '85858685@163.com', é€šè¿‡
+Tue, 21 Jul 2020 15:06:16 test_contact.py[line:65] INFO æµ‹è¯•ç”¨ä¾‹:('æå››', '6848668486@163.com', False, 15964258963, 'è”ç³»äºº2'), æœŸæœ›: '6848668486@163.com', é€šè¿‡
+Tue, 21 Jul 2020 15:06:24 test_contact.py[line:65] INFO æµ‹è¯•ç”¨ä¾‹:('ç‹äº”', None, False, 18654235874, 'è”ç³»äºº3'), æœŸæœ›: 'è¯·æ­£ç¡®å¡«å†™é‚®ä»¶åœ°å€ã€‚', é€šè¿‡
+Tue, 21 Jul 2020 15:06:31 test_contact.py[line:65] INFO æµ‹è¯•ç”¨ä¾‹:('é’±å…­', '957584565@', False, 15956423698, 'è”ç³»äºº4'), æœŸæœ›: 'è¯·æ­£ç¡®å¡«å†™é‚®ä»¶åœ°å€ã€‚', é€šè¿‡
+Tue, 21 Jul 2020 15:10:22 test_contact.py[line:59] ERROR é¡µé¢å…ƒç´ ä¸å­˜åœ¨,å¼‚å¸¸å †æ ˆä¿¡æ¯:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/163_web_test/TestCase/test_contact.py", line 55, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "/home/totoro/PycharmProjects/163_web_test/TestAction/new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/contactpage.py", line 10, in new_contact
+    el_txl = self.by_xpath("//li[@title = 'é€šè®¯å½•']")
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/basepage.py", line 32, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@title = 'é€šè®¯å½•']"}
+  (Session info: headless chrome=84.0.4147.89)
+
+
+Tue, 21 Jul 2020 15:10:24 test_contact.py[line:59] ERROR é¡µé¢å…ƒç´ ä¸å­˜åœ¨,å¼‚å¸¸å †æ ˆä¿¡æ¯:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/163_web_test/TestCase/test_contact.py", line 55, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "/home/totoro/PycharmProjects/163_web_test/TestAction/new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/contactpage.py", line 10, in new_contact
+    el_txl = self.by_xpath("//li[@title = 'é€šè®¯å½•']")
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/basepage.py", line 32, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@title = 'é€šè®¯å½•']"}
+  (Session info: headless chrome=84.0.4147.89)
+
+
+Tue, 21 Jul 2020 15:10:26 test_contact.py[line:59] ERROR é¡µé¢å…ƒç´ ä¸å­˜åœ¨,å¼‚å¸¸å †æ ˆä¿¡æ¯:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/163_web_test/TestCase/test_contact.py", line 55, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "/home/totoro/PycharmProjects/163_web_test/TestAction/new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/contactpage.py", line 10, in new_contact
+    el_txl = self.by_xpath("//li[@title = 'é€šè®¯å½•']")
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/basepage.py", line 32, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@title = 'é€šè®¯å½•']"}
+  (Session info: headless chrome=84.0.4147.89)
+
+
+Tue, 21 Jul 2020 15:10:28 test_contact.py[line:59] ERROR é¡µé¢å…ƒç´ ä¸å­˜åœ¨,å¼‚å¸¸å †æ ˆä¿¡æ¯:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/163_web_test/TestCase/test_contact.py", line 55, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "/home/totoro/PycharmProjects/163_web_test/TestAction/new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/contactpage.py", line 10, in new_contact
+    el_txl = self.by_xpath("//li[@title = 'é€šè®¯å½•']")
+  File "/home/totoro/PycharmProjects/163_web_test/PageObject/basepage.py", line 32, in by_xpath
+    return self.driver.find_element_by_xpath(xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@title = 'é€šè®¯å½•']"}
+  (Session info: headless chrome=84.0.4147.89)
+
+
+Tue, 21 Jul 2020 15:10:36 connectionpool.py[line:744] WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4c169400>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/51330158988024193e4d7ddda60abc75/screenshot
+Tue, 21 Jul 2020 15:10:36 connectionpool.py[line:744] WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4c1699a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/51330158988024193e4d7ddda60abc75/screenshot
+Tue, 21 Jul 2020 15:10:36 connectionpool.py[line:744] WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4c1698b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/51330158988024193e4d7ddda60abc75/screenshot
+Tue, 21 Jul 2020 15:11:01 connectionpool.py[line:744] WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4ce6a5e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e4563a74aa162174385f8e677e7a550/screenshot
+Tue, 21 Jul 2020 15:11:01 connectionpool.py[line:744] WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4ce6ad90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e4563a74aa162174385f8e677e7a550/screenshot
+Tue, 21 Jul 2020 15:11:01 connectionpool.py[line:744] WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae4ce6ae50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e4563a74aa162174385f8e677e7a550/screenshot
+Tue, 21 Jul 2020 16:08:06 test_contact.py[line:65] INFO æµ‹è¯•ç”¨ä¾‹:('å¼ ä¸‰', '85858685@163.com', True, 13285698745, 'è”ç³»äºº1'), æœŸæœ›: '85858685@163.com', é€šè¿‡
+Tue, 21 Jul 2020 16:08:13 test_contact.py[line:65] INFO æµ‹è¯•ç”¨ä¾‹:('æå››', '6848668486@163.com', False, 15964258963, 'è”ç³»äºº2'), æœŸæœ›: '6848668486@163.com', é€šè¿‡
+Tue, 21 Jul 2020 16:08:20 test_contact.py[line:65] INFO æµ‹è¯•ç”¨ä¾‹:('ç‹äº”', None, False, 18654235874, 'è”ç³»äºº3'), æœŸæœ›: 'è¯·æ­£ç¡®å¡«å†™é‚®ä»¶åœ°å€ã€‚', é€šè¿‡
+Tue, 21 Jul 2020 16:08:27 test_contact.py[line:65] INFO æµ‹è¯•ç”¨ä¾‹:('é’±å…­', '957584565@', False, 15956423698, 'è”ç³»äºº4'), æœŸæœ›: 'è¯·æ­£ç¡®å¡«å†™é‚®ä»¶åœ°å€ã€‚', é€šè¿‡
+Tue, 21 Jul 2020 16:08:36 test_login.py[line:63] INFO æµ‹è¯•ç”¨ä¾‹:('wangyiwebtest', 'wangyi2020'), æœŸæœ›: 'wangyiwebtest@163.com', é€šè¿‡
+Tue, 21 Jul 2020 16:08:42 test_login.py[line:63] INFO æµ‹è¯•ç”¨ä¾‹:(None, None), æœŸæœ›: 'è¯·è¾“å…¥å¸å·', é€šè¿‡
+Tue, 21 Jul 2020 16:08:47 test_login.py[line:63] INFO æµ‹è¯•ç”¨ä¾‹:('wangyiwebtest', None), æœŸæœ›: 'è¯·è¾“å…¥å¯†ç ', é€šè¿‡
+Tue, 21 Jul 2020 16:08:53 test_login.py[line:63] INFO æµ‹è¯•ç”¨ä¾‹:(None, 'wangyi2020'), æœŸæœ›: 'è¯·è¾“å…¥å¸å·', é€šè¿‡
+Tue, 21 Jul 2020 16:08:59 test_login.py[line:63] INFO æµ‹è¯•ç”¨ä¾‹:('wangyiwebtest', 'aaaaaaaa'), æœŸæœ›: 'å¸å·æˆ–å¯†ç é”™è¯¯', é€šè¿‡
+Tue, 21 Jul 2020 16:09:14 test_mail.py[line:68] INFO æµ‹è¯•ç”¨ä¾‹:('957584602@qq.com', 'æµ‹è¯•é‚®ä»¶', 'è¿™æ˜¯ä¸€å°æµ‹è¯•é‚®ä»¶ã€‚'), æœŸæœ›: 'å‘é€æˆåŠŸ', é€šè¿‡
+Sun, 21 Feb 2021 11:56:30 test_contact.py[line:69] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "c:/Users/Janet/Documents/163_test_framework/TestCase/test_contact.py", line 60, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "c:/Users/Janet/Documents/163_test_framework/TestCase\..\TestAction\new_contact.py", line 10, in newcontact
+    page.confirm()
+  File "c:/Users/Janet/Documents/163_test_framework/TestCase\..\PageObject\contactpage.py", line 35, in confirm
+    el_cfm.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 11:56:33 test_contact.py[line:69] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "c:/Users/Janet/Documents/163_test_framework/TestCase/test_contact.py", line 60, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "c:/Users/Janet/Documents/163_test_framework/TestCase\..\TestAction\new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "c:/Users/Janet/Documents/163_test_framework/TestCase\..\PageObject\contactpage.py", line 11, in new_contact
+    el_txl.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li id="_mail_tabitem_1_117" class="js-component-tabitem tA0 oZ0 nui-tabs-item nui-tabs-item-selected" role="tab" aria-selected="true" tabindex="0" title="Í¨Ñ¶Â¼" style="width: 91px;">...</li> is not clickable at point (192, 67). Other element would receive the click: <div id="_mail_component_382_382" class="js-component-component nui-mask"></div>
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 11:59:11 test_contact.py[line:69] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "c:\Users\Janet\Documents\163_test_framework\TestCase\test_contact.py", line 60, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "c:\Users\Janet\Documents\163_test_framework\TestAction\new_contact.py", line 10, in newcontact
+    page.confirm()
+  File "c:\Users\Janet\Documents\163_test_framework\PageObject\contactpage.py", line 35, in confirm
+    el_cfm.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 11:59:14 test_contact.py[line:69] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "c:\Users\Janet\Documents\163_test_framework\TestCase\test_contact.py", line 60, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "c:\Users\Janet\Documents\163_test_framework\TestAction\new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "c:\Users\Janet\Documents\163_test_framework\PageObject\contactpage.py", line 11, in new_contact
+    el_txl.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li id="_mail_tabitem_1_117" class="js-component-tabitem tA0 oZ0 nui-tabs-item nui-tabs-item-selected" role="tab" aria-selected="true" tabindex="0" title="Í¨Ñ¶Â¼" style="width: 91px;">...</li> is not clickable at point (192, 67). Other element would receive the click: <div id="_mail_component_382_382" class="js-component-component nui-mask"></div>
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 11:59:17 test_contact.py[line:69] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "c:\Users\Janet\Documents\163_test_framework\TestCase\test_contact.py", line 60, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "c:\Users\Janet\Documents\163_test_framework\TestAction\new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "c:\Users\Janet\Documents\163_test_framework\PageObject\contactpage.py", line 11, in new_contact
+    el_txl.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li id="_mail_tabitem_1_117" class="js-component-tabitem tA0 oZ0 nui-tabs-item nui-tabs-item-selected" role="tab" aria-selected="true" tabindex="0" title="Í¨Ñ¶Â¼" style="width: 91px;">...</li> is not clickable at point (192, 67). Other element would receive the click: <div id="_mail_component_382_382" class="js-component-component nui-mask"></div>
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 11:59:20 test_contact.py[line:69] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "c:\Users\Janet\Documents\163_test_framework\TestCase\test_contact.py", line 60, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "c:\Users\Janet\Documents\163_test_framework\TestAction\new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "c:\Users\Janet\Documents\163_test_framework\PageObject\contactpage.py", line 11, in new_contact
+    el_txl.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li id="_mail_tabitem_1_117" class="js-component-tabitem tA0 oZ0 nui-tabs-item nui-tabs-item-selected" role="tab" aria-selected="true" tabindex="0" title="Í¨Ñ¶Â¼" style="width: 91px;">...</li> is not clickable at point (192, 67). Other element would receive the click: <div id="_mail_component_382_382" class="js-component-component nui-mask"></div>
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 11:59:34 test_login.py[line:66] INFO ²âÊÔÓÃÀı:('wangyiwebtest', 'wangyi2020'), ÆÚÍû: 'wangyiwebtest@163.com', Í¨¹ı
+Sun, 21 Feb 2021 11:59:47 test_login.py[line:66] INFO ²âÊÔÓÃÀı:(None, None), ÆÚÍû: 'ÇëÊäÈëÕÊºÅ', Í¨¹ı
+Sun, 21 Feb 2021 11:59:58 test_login.py[line:66] INFO ²âÊÔÓÃÀı:('wangyiwebtest', None), ÆÚÍû: 'ÇëÊäÈëÃÜÂë', Í¨¹ı
+Sun, 21 Feb 2021 12:00:08 test_login.py[line:66] INFO ²âÊÔÓÃÀı:(None, 'wangyi2020'), ÆÚÍû: 'ÇëÊäÈëÕÊºÅ', Í¨¹ı
+Sun, 21 Feb 2021 12:00:19 test_login.py[line:66] INFO ²âÊÔÓÃÀı:('wangyiwebtest', 'aaaaaaaa'), ÆÚÍû: 'ÕÊºÅ»òÃÜÂë´íÎó', Í¨¹ı
+Sun, 21 Feb 2021 12:00:36 test_mail.py[line:69] INFO ²âÊÔÓÃÀı:('957584602@qq.com', '²âÊÔÓÊ¼ş', 'ÕâÊÇÒ»·â²âÊÔÓÊ¼ş¡£'), ÆÚÍû: '·¢ËÍ³É¹¦', Í¨¹ı
+Sun, 21 Feb 2021 15:22:46 test_contact.py[line:68] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\163_test_framework\TestCase\test_contact.py", line 59, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "C:\Users\Janet\Documents\163_test_framework\TestAction\new_contact.py", line 10, in newcontact
+    page.confirm()
+  File "C:\Users\Janet\Documents\163_test_framework\PageObject\contactpage.py", line 35, in confirm
+    el_cfm.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 15:22:49 test_contact.py[line:68] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\163_test_framework\TestCase\test_contact.py", line 59, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "C:\Users\Janet\Documents\163_test_framework\TestAction\new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "C:\Users\Janet\Documents\163_test_framework\PageObject\contactpage.py", line 11, in new_contact
+    el_txl.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li id="_mail_tabitem_1_117" class="js-component-tabitem tA0 oZ0 nui-tabs-item nui-tabs-item-selected" role="tab" aria-selected="true" tabindex="0" title="Í¨Ñ¶Â¼" style="width: 91px;">...</li> is not clickable at point (192, 67). Other element would receive the click: <div id="_mail_component_367_367" class="js-component-component nui-mask"></div>
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 15:22:52 test_contact.py[line:68] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\163_test_framework\TestCase\test_contact.py", line 59, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "C:\Users\Janet\Documents\163_test_framework\TestAction\new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "C:\Users\Janet\Documents\163_test_framework\PageObject\contactpage.py", line 11, in new_contact
+    el_txl.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li id="_mail_tabitem_1_117" class="js-component-tabitem tA0 oZ0 nui-tabs-item nui-tabs-item-selected" role="tab" aria-selected="true" tabindex="0" title="Í¨Ñ¶Â¼" style="width: 91px;">...</li> is not clickable at point (192, 67). Other element would receive the click: <div id="_mail_component_367_367" class="js-component-component nui-mask"></div>
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 15:22:55 test_contact.py[line:68] ERROR Î´Öª´íÎó, ´íÎóĞÅÏ¢:Traceback (most recent call last):
+  File "C:\Users\Janet\Documents\163_test_framework\TestCase\test_contact.py", line 59, in test_contact
+    con.newcontact(name, email, star, phone, note)
+  File "C:\Users\Janet\Documents\163_test_framework\TestAction\new_contact.py", line 8, in newcontact
+    page.new_contact()
+  File "C:\Users\Janet\Documents\163_test_framework\PageObject\contactpage.py", line 11, in new_contact
+    el_txl.click()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li id="_mail_tabitem_1_117" class="js-component-tabitem tA0 oZ0 nui-tabs-item nui-tabs-item-selected" role="tab" aria-selected="true" tabindex="0" title="Í¨Ñ¶Â¼" style="width: 91px;">...</li> is not clickable at point (192, 67). Other element would receive the click: <div id="_mail_component_367_367" class="js-component-component nui-mask"></div>
+  (Session info: chrome=88.0.4324.182)
+
+
+Sun, 21 Feb 2021 15:23:08 test_login.py[line:66] INFO ²âÊÔÓÃÀı:('wangyiwebtest', 'wangyi2020'), ÆÚÍû: 'wangyiwebtest@163.com', Í¨¹ı
+Sun, 21 Feb 2021 15:23:19 test_login.py[line:66] INFO ²âÊÔÓÃÀı:(None, None), ÆÚÍû: 'ÇëÊäÈëÕÊºÅ', Í¨¹ı
+Sun, 21 Feb 2021 15:23:29 test_login.py[line:66] INFO ²âÊÔÓÃÀı:('wangyiwebtest', None), ÆÚÍû: 'ÇëÊäÈëÃÜÂë', Í¨¹ı
+Sun, 21 Feb 2021 15:23:40 test_login.py[line:66] INFO ²âÊÔÓÃÀı:(None, 'wangyi2020'), ÆÚÍû: 'ÇëÊäÈëÕÊºÅ', Í¨¹ı
+Sun, 21 Feb 2021 15:23:50 test_login.py[line:66] INFO ²âÊÔÓÃÀı:('wangyiwebtest', 'aaaaaaaa'), ÆÚÍû: 'ÕÊºÅ»òÃÜÂë´íÎó', Í¨¹ı
+Sun, 21 Feb 2021 15:24:11 test_mail.py[line:69] INFO ²âÊÔÓÃÀı:('957584602@qq.com', '²âÊÔÓÊ¼ş', 'ÕâÊÇÒ»·â²âÊÔÓÊ¼ş¡£'), ÆÚÍû: '·¢ËÍ³É¹¦', Í¨¹ı
